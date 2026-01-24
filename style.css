@@ -7,11 +7,19 @@ body{
 }
 
 .set_score{
-  
+  border: 2px solid #192e47;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: transparent;
 }
 
 .live_sore{
-  
+  border: 2px solid #192e47;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: transparent;
 }
 
 .buttons{
