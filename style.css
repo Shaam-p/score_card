@@ -1,7 +1,20 @@
 body{
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, #0a0a0a, #264f24);
+  background: #264f24;
   margin-left: none;
   color: #a8d180;
 }
+
+.set_score{
+  
+}
+
+.live_sore{
+  
+}
+
+.buttons{
+  
+}
+
