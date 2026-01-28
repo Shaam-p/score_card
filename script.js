@@ -39,6 +39,8 @@ const setScore1 = document.getElementById("set_score1");
 const setScore2 = document.getElementById("set_score2");
 
 let setCount = 0;
+let setsWonA = 0;
+let setsWonB = 0;
 
 nextSetBtn.addEventListener("click", function () {
 
@@ -46,9 +48,11 @@ nextSetBtn.addEventListener("click", function () {
 
   if (countA > countB) {
     winner = "A";
+    setWonA += 1;
   } 
   else {
     winner = "B";
+    setsWonB += 1;
   }
   
   const setResult = `Winner: ${winner} (${countA}-${countB})`;
@@ -57,6 +61,20 @@ nextSetBtn.addEventListener("click", function () {
     setScore1.value = setResult;
   } else if (setCount === 1) {
     setScore2.value = setResult;
+  }
+
+  if (setsWonA === 2) {
+    alert("Match Winner: Player A");
+    buttons.forEach(btn => btn.disabled = true);
+    nextSetBtn.disabled = true;
+    return;
+  }
+
+  if (setsWonB === 2) {
+    alert("Match Winner: Player B");
+    buttons.forEach(btn => btn.disabled = true);
+    nextSetBtn.disabled = true;
+    return;
   }
 
   setCount += 1;
@@ -68,3 +86,13 @@ nextSetBtn.addEventListener("click", function () {
 
   buttons.forEach(btn => btn.disabled = false);
 });
+
+
+
+
+
+
+
+
+
+//Anchor
