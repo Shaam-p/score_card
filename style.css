@@ -14,6 +14,17 @@ body{
   background-color: transparent;
 }
 
+#inputBox{
+  width: 400px;
+  height: 70px;
+  padding: 20px;
+  margin: 20px;
+  border: none;
+  background-color: transparent;
+  font-size: 40px;
+  color: #a8d180;
+}
+
 .live_sore{
   border: 2px solid #192e47;
   margin: 20px;
@@ -22,7 +33,7 @@ body{
   background-color: transparent;
 }
 
-#inputBox1{
+#scoreA, #scoreB{
   width: 100px;
   height: 70px;
   padding: 20px;
@@ -33,15 +44,10 @@ body{
   color: #f5a83d;
 }
 
-#inputBox2{
-  width: 100px;
-  height: 70px;
-  padding: 20px;
-  margin: 20px;
-  border: none;
-  background-color: transparent;
-  font-size: 40px;
-  color: #f5a83d;
+.buttons{
+  display: inline-flex;
+  gap: 100px;
+  justify-content: center;
 }
 
 .buttons{
