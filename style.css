@@ -23,6 +23,17 @@ body{
 }
 
 .buttons{
-  
+  width: 400px;
+  height: 100px;
+  border: none;
+  background: #192e47;
+  outline: none;
+  border-radius: 6px;
+  margin: 20px;
+  padding: 20px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
 }
 
