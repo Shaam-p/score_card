@@ -4,6 +4,7 @@ body{
   background: #264f24;
   margin-left: none;
   color: #a8d180;
+  align-items: center;
 }
 
 .set_score{
@@ -14,7 +15,7 @@ body{
   background-color: transparent;
 }
 
-#inputBox{
+#set_score1, #set_score2{
   width: 400px;
   height: 70px;
   padding: 20px;
@@ -31,6 +32,9 @@ body{
   padding: 20px;
   border-radius: 16px;
   background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 #scoreA, #scoreB{
@@ -46,7 +50,6 @@ body{
 
 .buttons{
   display: inline-flex;
-  gap: 100px;
   justify-content: center;
 }
 
@@ -63,5 +66,22 @@ body{
   color: #fff;
   font-size: 1em;
   font-weight: 500;
+}
+
+.reset{
+  display: flex;
+  justify-content: center;
+}
+
+#next_set{
+  width: 300px;
+  height: 80px;
+  background: #a8d180;
+  color: #192e47;
+}
+
+button.active {
+  background-color: #222;
+  color: white;
 }
 
