@@ -22,6 +22,28 @@ body{
   background-color: transparent;
 }
 
+#inputBox1{
+  width: 100px;
+  height: 70px;
+  padding: 20px;
+  margin: 20px;
+  border: none;
+  background-color: transparent;
+  font-size: 40px;
+  color: #f5a83d;
+}
+
+#inputBox2{
+  width: 100px;
+  height: 70px;
+  padding: 20px;
+  margin: 20px;
+  border: none;
+  background-color: transparent;
+  font-size: 40px;
+  color: #f5a83d;
+}
+
 .buttons{
   width: 400px;
   height: 100px;
