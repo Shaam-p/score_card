@@ -25,7 +25,7 @@ buttons.forEach((button) => {
       scoreB.value = countB;
     }
     if (countA === MAX_SCORE || countB === MAX_SCORE){
-      console.log("Game Over")
+      buttons.forEach(btn => btn.disabled = true);
     }
   });
 });
