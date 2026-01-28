@@ -48,6 +48,11 @@ body{
   color: #f5a83d;
 }
 
+p{
+  font-size: 40px;
+  color: #f5a83d;
+}
+
 .buttons{
   display: inline-flex;
   justify-content: center;
