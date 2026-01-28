@@ -41,7 +41,17 @@ const setScore2 = document.getElementById("set_score2");
 let setCount = 0;
 
 nextSetBtn.addEventListener("click", function () {
-  const setResult = `${countA}-${countB}`;
+
+  let winner = "";
+
+  if (countA > countB) {
+    winner = "A";
+  } 
+  else {
+    winner = "B";
+  }
+  
+  const setResult = `Winner: ${winner} (${countA}-${countB})`;
 
   if (setCount === 0) {
     setScore1.value = setResult;
