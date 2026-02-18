@@ -28,6 +28,7 @@ buttons.forEach((button) => {
     }
     if (countA === MAX_SCORE || countB === MAX_SCORE){
       buttons.forEach(btn => btn.disabled = true);
+      nextSet()
     }
   });
 });
@@ -42,7 +43,8 @@ let setCount = 0;
 let setsWonA = 0;
 let setsWonB = 0;
 
-nextSetBtn.addEventListener("click", function () {
+//nextSetBtn.addEventListener("click", function ()
+function nextSet(){
 
   let winner = "";
 
@@ -85,7 +87,7 @@ nextSetBtn.addEventListener("click", function () {
   scoreB.value = 0;
 
   buttons.forEach(btn => btn.disabled = false);
-});
+};
 
 
 
