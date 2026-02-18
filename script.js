@@ -14,6 +14,14 @@ const max_score = 21;
 let countA = 0;
 let countB = 0;
 
+const nextSetBtn = document.getElementById("next_set");
+const setScore1 = document.getElementById("set_score1");
+const setScore2 = document.getElementById("set_score2");
+
+let setCount = 0;
+let setsWonA = 0;
+let setsWonB = 0;
+
 buttons.forEach((button) => {
   button.addEventListener("click", function () {
     // console.log(button.id);
@@ -35,13 +43,6 @@ buttons.forEach((button) => {
 
 //new-set button to display previous set scores and reset the live score counter.
 
-const nextSetBtn = document.getElementById("next_set");
-const setScore1 = document.getElementById("set_score1");
-const setScore2 = document.getElementById("set_score2");
-
-let setCount = 0;
-let setsWonA = 0;
-let setsWonB = 0;
 
 //nextSetBtn.addEventListener("click", function ()
 function nextSet(){
