@@ -14,7 +14,7 @@ const max_score = 21;
 let countA = 0;
 let countB = 0;
 
-const nextSetBtn = document.getElementById("next_set");
+//const nextSetBtn = document.getElementById("next_set");
 const setScore1 = document.getElementById("set_score1");
 const setScore2 = document.getElementById("set_score2");
 
