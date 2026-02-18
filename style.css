@@ -78,12 +78,12 @@ p{
   justify-content: center;
 }
 
-#next_set{
+/* #next_set{
   width: 300px;
   height: 80px;
   background: #a8d180;
   color: #192e47;
-}
+} */
 
 button.active {
   background-color: #222;
